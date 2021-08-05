@@ -1,0 +1,180 @@
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+#winner-display {
+    font-size: 2.5em;
+    text-align: center;
+    height: 1.25em;
+}
+
+#game-container {
+    height: 660px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.player-card {
+    width: 300px;
+}
+
+#gameboard {
+    height: 600px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-style: solid;
+    border-width: 10px;
+    padding: 20px;
+}
+
+.cell {
+    border-style: solid;
+    border-width: 0 5px 5px 0;
+    border-color: black;
+    text-align: center;
+    font-size: 220px;
+    line-height: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: default;
+}
+
+#three {
+    border-right: none;
+}
+
+#six {
+    border-right: none;
+}
+
+#seven {
+    border-bottom: none;
+}
+
+#eight {
+    border-bottom: none;
+}
+
+#nine {
+    border-bottom: none;
+    border-right: none;
+}
+
+#button-container {
+    text-align: center;
+}
+
+#new-game-form2 {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-style: solid;
+    font-size: 3.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+}
+
+#new-game-form {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-style: solid;
+    font-size: 3.5em;
+    text-align: center;
+    z-index: 2;
+}
+
+#new-game-form1 {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-style: solid;
+    font-size: 3.5em;
+    text-align: center;
+    z-index: 0;
+}
+
+#new-game-form button {
+    height: 200px;
+    width: 500px;
+    font-size: 1em;
+    margin-top: 100px;
+}
+
+#new-game-form2 input, #new-game-form1 input {
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+#new-game-form2 p {
+    margin: 0;
+}
+
+#new-game-form2 div {
+    margin-top: 30px;
+}
+
+.st-button-container {
+    text-align: center;
+}
+
+#start1, #start2 {
+    height: 80px;
+    width: 200px;
+    font-size: 1em;
+}
+
+#start1 {
+    margin-top: 50px;
+}
+
+.player-card {
+    text-align: center;
+}
+
+#player1-name-display, #player2-name-display, #player1-score, #player2-score {
+    font-size: 2.5em;
+    line-height: 2em;
+}
+
+#ng-button-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#new-game {
+    width: 200px;
+    height: 80px;
+    font-size: 1.5em;
+    display: none;
+}
+
+label {
+    font-size: 0.5em;
+}
+
+input[type='radio'] { 
+    transform: scale(2); 
+}
+
+
